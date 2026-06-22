@@ -1,0 +1,736 @@
+﻿<!-- FICHIER : portfolio.html (Portfolio S1 & S2) -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sae_14_connor_pinna.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <title>Portfolio — SAÉ S1 & S2</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Connor Pinna</h1>
+  </div>
+
+  <!-- MENU -->
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="cv.html">Curriculum vitæ</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="hobby.html">Hobby</a></li>
+      <li><a class="active" href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO + FILTRES (PLACÉ AVANT LES SECTIONS) -->
+  <section class="pf-hero">
+    <div class="container">
+      <h1 class="pf-title">Portfolio — SAÉ S1 & S2</h1>
+
+      <div class="pf-filters" role="tablist" aria-label="Filtrer par semestre">
+        <button class="pf-filter active" data-target="s1" aria-selected="true">Semestre 1 (S1)</button>
+        <button class="pf-filter" data-target="s2" aria-selected="false">Semestre 2 (S2)</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= S1 ======================= -->
+  <section id="s1" class="pf-section">
+    <div class="container">
+      <h2 class="pf-section-title"><span>S1</span> — Projets & SAÉ</h2>
+
+      <!-- === SAÉ N°11 === -->
+      <article class="sae-entry" id="sae-11">
+        <header class="sae-head">
+          <div>
+            <h3 class="sae-title">Saé N°11</h3>
+            <p class="sae-subtitle">Se sensibiliser à l'hygiène informatique et à la cybersécurité</p>
+          </div>
+          <span class="sae-hours">14h</span>
+        </header>
+        <section class="sae-block">
+          <h4>Description du travail demandé</h4>
+          <p>Vous devez réaliser un diaporama (~5 diapositives) qui présente les 4 bonnes pratiques qui vous semblent les plus importantes. Pour chacune d’elles, vous devez présenter le risque encouru, et la contre-mesure qui permet de minimiser ce risque.</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Compétences développées</h4>
+          <ul class="sae-list">
+            <li><strong>Analyse des risques</strong> : Identification des menaces liées à la cybersécurité et des bonnes pratiques adaptées.</li>
+            <li><strong>Communication claire</strong> : Simplification de concepts techniques pour un public non spécialiste.</li>
+            <li><strong>Création de supports</strong> : Production d'un diaporama structuré et attractif.</li>
+            <li><strong>Sensibilisation et pédagogie</strong> : Transmission efficace de messages clés pour inciter au changement de comportement.</li>
+            <li><strong>Recherche documentaire</strong> : Exploitation de ressources spécialisées pour enrichir le contenu.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Problèmes rencontrés</h4>
+          <div class="sae-problem">
+            <p><strong>Volume d'informations élevé</strong> : Risque de surcharge d'informations dans un format limité (~5 diapositives).</p>
+            <p><strong>Solution</strong> : Prioriser les pratiques les plus impactantes et pertinentes.</p>
+          </div>
+        </section>
+
+        <section class="sae-block">
+          <h4>Grandes étapes</h4>
+          <ul class="sae-steps">
+            <li>Recherches approfondit sur la sécurisation de mot de passe — <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/mots-de-passe" target="_blank" rel="noopener">source</a></li>
+            <li>Confection du diapositif sur Google Docs.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Fichiers joint :</h4>
+          <div class="sae-files">
+            <article class="file-card">
+              <img src="images/DeliveryBox-476-Recovered_edited.jpg" alt="">
+              <div class="file-body">
+                <h5>MOOC de l’ANSSI</h5>
+                <a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a>
+              </div>
+            </article>
+            <article class="file-card">
+              <img src="images/DeliveryBox-476-Recovered_edited.jpg" alt="">
+              <div class="file-body">
+                <h5>Diaporama</h5>
+                <a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a>
+              </div>
+            </article>
+            <article class="file-card">
+              <img src="images/DeliveryBox-476-Recovered_edited.jpg" alt="">
+              <div class="file-body">
+                <h5>Cisco</h5>
+                <a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="sae-block">
+          <h4>Barème d’évaluation</h4>
+          <div class="rubric readonly">
+            <article class="rubric-item">
+              <div class="rubric-grade">A</div>
+              <div class="rubric-text"><strong>A</strong> — L’étudiant va au-delà des attendus…</div>
+            </article>
+
+            <article class="rubric-item selected"><!-- déjà choisi -->
+              <div class="rubric-grade">B</div>
+              <div class="rubric-text"><strong>B</strong> — L’étudiant identifie ses difficultés et comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">C</div>
+              <div class="rubric-text"><strong>C</strong> — L’étudiant identifie ses difficultés mais ne sait pas comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">D</div>
+              <div class="rubric-text"><strong>D</strong> — L’étudiant ne produit pas d’analyse sur son travail</div>
+            </article>
+          </div>
+        </section>
+      </article>
+      <!-- === /SAÉ N°11 === -->
+
+
+      <!-- === SAÉ N°12 === -->
+      <article class="sae-entry" id="sae-12">
+        <header class="sae-head">
+          <div>
+            <h3 class="sae-title">Saé N°12</h3>
+            <p class="sae-subtitle">S'initier aux réseaux informatiques</p>
+          </div>
+          <span class="sae-hours">20h</span>
+        </header>
+
+        <section class="sae-block">
+          <h4>Notation</h4>
+          <p>Note de gestion du projet (coef. 5) — Note de projet (coef. 5) — Note d’acquisition de la compétence (coef. 10) — Note de l’évaluation finale (coef. 10) suite à une soutenance orale.</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Description du travail demandé</h4>
+          <p>Vous venez d’intégrer une équipe dans le bureau d’étude d’une petite entreprise et votre première mission consiste à installer et à configurer son infrastructure informatique. Vous disposez pour cela de plusieurs équipements, un routeur et plusieurs switchs peuvent être placés dans votre réseau.</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Fichiers joint :</h4>
+          <div class="sae-files">
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Diagramme de Gant</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Simulation Cisco</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Infrastructure</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+          </div>
+        </section>
+
+        <section class="sae-block">
+          <h4>Compétences développées</h4>
+          <ul class="sae-list">
+            <li>Conception et mise en œuvre d’un réseau ; Configuration des équipements (postes, routeurs, commutateurs).</li>
+            <li>Diagnostic et résolution de problèmes ; Documentation technique.</li>
+            <li>Collaboration et travail en équipe.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Problèmes rencontrés</h4>
+          <p><strong>Topologie complexe</strong> : difficulté à comprendre/apply l’architecture réseau. <strong>Solution</strong> : analyser la topologie en détail avant la configuration et poser des questions en cas de doute.</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Grandes étapes</h4>
+          <ul class="sae-steps">
+            <li>Livrables administratifs (Gantt, Jupiter) + choix de l’équipement Cisco.</li>
+            <li>Simulation sur Cisco Packet Tracer puis conception du plan.</li>
+            <li>Configuration en réel avec les 2e années.</li>
+            <li>Prestation orale devant un professeur.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Barème d’évaluation</h4>
+          <div class="rubric readonly">
+            <article class="rubric-item">
+              <div class="rubric-grade">A</div>
+              <div class="rubric-text"><strong>A</strong> — L’étudiant va au-delà des attendus…</div>
+            </article>
+
+            <article class="rubric-item selected"><!-- déjà choisi -->
+              <div class="rubric-grade">B</div>
+              <div class="rubric-text"><strong>B</strong> — L’étudiant identifie ses difficultés et comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">C</div>
+              <div class="rubric-text"><strong>C</strong> — L’étudiant identifie ses difficultés mais ne sait pas comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">D</div>
+              <div class="rubric-text"><strong>D</strong> — L’étudiant ne produit pas d’analyse sur son travail</div>
+            </article>
+          </div>
+        </section>
+      </article>
+      <!-- === /SAÉ N°12 === -->
+
+
+      <!-- === SAÉ N°13 === -->
+      <article class="sae-entry" id="sae-13">
+        <header class="sae-head">
+          <div>
+            <h3 class="sae-title">Saé N°13</h3>
+            <p class="sae-subtitle">Découvrir un dispositf de transmission</p>
+          </div>
+          <span class="sae-hours">12h</span>
+        </header>
+
+        <section class="sae-block">
+          <h4>Modalités pratiques</h4>
+          <ul class="sae-list">
+            <li>Travail en binôme (même binôme qu’en R105).</li>
+            <li>Autonomie sur 3 séances de 3 h (travail conseillé hors EDT).</li>
+            <li>Logiciel disponible au département. Travail décomposé en 4 parties.</li>
+            <li>Rubrique Moodle « Découvrir un système de transmission ».</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Description du travail demandé</h4>
+          <p>Objectifs : Découverte et utilisation du logiciel « Matlab Simulink ».</p>
+          <p>Notation : Compte-rendu coef. 1 ; Examen individuel (semaines 50/51) 1 h coef. 2.</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Fichier joint</h4>
+          <div class="sae-files">
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Compte Rendu</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+          </div>
+        </section>
+
+        <section class="sae-block">
+          <h4>Compétences développées</h4>
+          <ul class="sae-list">
+            <li>Découverte d’un outil spécialisé (Matlab Simulink), modélisation, interprétation des résultats.</li>
+            <li>Gestion de projet en binôme, organisation/autonomie.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Problèmes rencontrés</h4>
+          <p>Ressources limitées : difficulté à trouver des supports. <strong>Solution</strong> : forums/vidéos et questions aux enseignants.</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Grandes étapes</h4>
+          <ul class="sae-steps"><li>Conception du TP et compte rendu sous Google Docs.</li></ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Barème d’évaluation</h4>
+          <div class="rubric readonly">
+            <article class="rubric-item selected">
+              <div class="rubric-grade">A</div>
+              <div class="rubric-text"><strong>A</strong> — L’étudiant va au-delà des attendus…</div>
+            </article>
+
+            <!-- CORRECTION ICI : balise bien fermée + commentaire à l'extérieur -->
+            <article class="rubric-item"> <!-- déjà choisi -->
+              <div class="rubric-grade">B</div>
+              <div class="rubric-text"><strong>B</strong> — L’étudiant identifie ses difficultés et comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">C</div>
+              <div class="rubric-text"><strong>C</strong> — L’étudiant identifie ses difficultés mais ne sait pas comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">D</div>
+              <div class="rubric-text"><strong>D</strong> — L’étudiant ne produit pas d’analyse sur son travail</div>
+            </article>
+          </div>
+        </section>
+      </article>
+      <!-- === /SAÉ N°13 === -->
+
+
+      <!-- === SAÉ N°14 === -->
+      <article class="sae-entry" id="sae-14">
+        <header class="sae-head">
+          <div>
+            <h3 class="sae-title">Saé N°14</h3>
+            <p class="sae-subtitle">Se présenter sur Internet</p>
+          </div>
+          <span class="sae-hours">16h</span>
+        </header>
+
+        <section class="sae-block">
+          <h4>Modalités pratiques</h4>
+          <ul class="sae-list">
+            <li>Site personnel individuel ; 4 séances de 4h (mix encadrées/autonomie).</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Description du travail demandé</h4>
+          <ul class="sae-list">
+            <li>Site responsive (W3C). Menu avec 4 pages : Présentation, CV (HTML/CSS), Compétences, Hobby.</li>
+            <li>Mentions légales/crédits en pied de page ; un tableau stylisé ; orthographe soignée ; chemins relatifs ; liens fonctionnels.</li>
+            <li>Pas de gros fichiers (vidéos externes, images optimisées, pas de librairies locales).</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Fichier joint</h4>
+          <div class="sae-files">
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Site Web</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+          </div>
+        </section>
+
+        <section class="sae-block">
+          <h4>Compétences / Problèmes rencontrés</h4>
+          <ul class="sae-list">
+            <li>Création de sites web responsives ; organisation du contenu ; application des standards web.</li>
+            <li>Utilisation d’un framework (Bootstrap/Bulma) ou HTML/CSS pur.</li>
+            <li>Pas de difficulté apparente.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Grandes étapes</h4>
+          <ul class="sae-steps">
+            <li>Conception de la structure</li>
+            <li>Implémentation du CSS</li>
+            <li>Hébergement du site</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Barème d’évaluation</h4>
+          <div class="rubric readonly">
+            <article class="rubric-item selected">
+              <div class="rubric-grade">A</div>
+              <div class="rubric-text"><strong>A</strong> — L’étudiant va au-delà des attendus…</div>
+            </article>
+
+            <article class="rubric-item"> <!-- déjà choisi -->
+              <div class="rubric-grade">B</div>
+              <div class="rubric-text"><strong>B</strong> — L’étudiant identifie ses difficultés et comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">C</div>
+              <div class="rubric-text"><strong>C</strong> — L’étudiant identifie ses difficultés mais ne sait pas comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">D</div>
+              <div class="rubric-text"><strong>D</strong> — L’étudiant ne produit pas d’analyse sur son travail</div>
+            </article>
+          </div>
+        </section>
+      </article>
+      <!-- === /SAÉ N°14 === -->
+
+
+      <!-- === SAÉ N°15 === -->
+      <article class="sae-entry" id="sae-15">
+        <header class="sae-head">
+          <div>
+            <h3 class="sae-title">Saé N°15</h3>
+            <p class="sae-subtitle">Traiter des données</p>
+          </div>
+          <span class="sae-hours">25h</span>
+        </header>
+
+        <section class="sae-block">
+          <h4>Description du travail demandé</h4>
+          <p>Vous devez réaliser un « script » capable de récupérer des données CSV sur <a href="https://www.data.gouv.fr/" target="_blank" rel="noopener">data.gouv.fr</a>. Les données seront agrégées (moyennes, max, filtrage…), puis transformées en JSON pour les transmettre à un site web qui les affichera en graphiques. Utilisation de GitLab pour le code et les livrables.</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Livrables</h4>
+          <div class="sae-files">
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Programmes</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Diapo finale</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+          </div>
+        </section>
+
+        <section class="sae-block">
+          <h4>Fichiers joint :</h4>
+          <div class="sae-files">
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Resultat</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+          </div>
+        </section>
+
+        <section class="sae-block">
+          <h4>Compétences développées</h4>
+          <ul class="sae-list">
+            <li>Collecte/manipulation de données ; programmation (calculs, filtrages, agrégations).</li>
+            <li>Utilisation de GitLab ; visualisation de données ; organisation/planification ; documentation technique.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Problèmes rencontrés</h4>
+          <p>Intégration JSON → site web (graphiques). <strong>Solution</strong> : utiliser Chart.js/D3.js côté front ou script serveur.</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Grandes étapes</h4>
+          <ul class="sae-steps">
+            <li>Choix : résultats du baccalauréat 2021 par département.</li>
+            <li>Livrables admin (Gantt, Google Docs).</li>
+            <li>Programmes Python (+ script Bash) pour trier/convertir.</li>
+            <li>Création/hébergement du site pour afficher les résultats.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Barème d’évaluation</h4>
+          <div class="rubric readonly">
+            <article class="rubric-item">
+              <div class="rubric-grade">A</div>
+              <div class="rubric-text"><strong>A</strong> — L’étudiant va au-delà des attendus…</div>
+            </article>
+
+            <article class="rubric-item selected"><!-- déjà choisi -->
+              <div class="rubric-grade">B</div>
+              <div class="rubric-text"><strong>B</strong> — L’étudiant identifie ses difficultés et comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">C</div>
+              <div class="rubric-text"><strong>C</strong> — L’étudiant identifie ses difficultés mais ne sait pas comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">D</div>
+              <div class="rubric-text"><strong>D</strong> — L’étudiant ne produit pas d’analyse sur son travail</div>
+            </article>
+          </div>
+        </section>
+      </article>
+      <!-- === /SAÉ N°15 === -->
+
+    </div>
+  </section>
+
+
+  <!-- ======================= S2 ======================= -->
+  <section id="s2" class="pf-section hidden">
+    <div class="container">
+      <h2 class="pf-section-title"><span>S2</span> — Projets & SAÉ</h2>
+
+      <!-- === SAÉ N°21 === -->
+      <article class="sae-entry" id="sae-21">
+        <header class="sae-head">
+          <div>
+            <h3 class="sae-title">Saé N°21</h3>
+            <p class="sae-subtitle">Construire un réseau informatique pour une petite structure</p>
+          </div>
+        </header>
+
+        <section class="sae-block">
+          <h4>Note</h4>
+          <p>Cette SAÉ est directement introduite dans la <a href="#sae-24">Saé 24</a>.</p>
+        </section>
+      </article>
+      <!-- === /SAÉ N°21 === -->
+
+      <!-- === SAÉ N°22 === -->
+      <article class="sae-entry" id="sae-22">
+        <header class="sae-head">
+          <div>
+            <h3 class="sae-title">Saé N°22</h3>
+            <p class="sae-subtitle">Mesurer et caractériser un signal ou un système</p>
+          </div>
+        </header>
+
+        <section class="sae-block">
+          <h4>Objectif & Contexte</h4>
+          <p>Le professionnel R&T doit attester de la conformité des équipements après intervention en mesurant et caractérisant le système de transmission (NRO, NRA, ...).</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Description du travail demandé</h4>
+          <p>Appréhender, pour un système de transmission donné, les paramètres pertinents pour assurer une transmission de qualité, les mesures à effectuer, les appareils adéquats et leurs configurations. Analyser et présenter les résultats (cartographie radio, hypsogramme...).</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Fichiers joints</h4>
+          <div class="sae-files">
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Diapositive</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Les TP</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+          </div>
+        </section>
+
+        <section class="sae-block">
+          <h4>Compétences / Problèmes / Solution</h4>
+          <ul class="sae-list">
+            <li>Analyser un signal fréquentiel (analyseur de spectre) ; utiliser et régler le matériel (balayage/FFT).</li>
+            <li>Interpréter des mesures, appliquer du filtrage numérique ; communiquer les résultats (diapo/soutenance).</li>
+            <li><strong>Difficulté</strong> : maîtrise des outils de mesure. <strong>Solution</strong> : s’appuyer sur les cours et manuels en ligne.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Contenu des séances</h4>
+          <ul class="sae-steps">
+            <li>Séance 1 : objectifs, organisation (7 séances, binômes), livrables.</li>
+            <li>Séance 2 : analyseur à balayage (GSP730) — réglages (Fc, Span, Ref level, RBW...).</li>
+            <li>Séance 3 : analyseur FFT — simulations Simulink (échantillonnage, Nyquist, aliasing...).</li>
+            <li>Séance 4 : filtrage numérique (filterDesigner, RIF, contraintes).</li>
+            <li>Séance 5 : point intermédiaire ; Séance 6 : mini-projet (RTL-SDR, spectre FM, filtre, démodulation) ; Séance 7 : soutenances.</li>
+          </ul>
+        </section>
+        <section class="sae-block">
+          <h4>Barème d’évaluation</h4>
+          <div class="rubric readonly">
+            <article class="rubric-item">
+              <div class="rubric-grade">A</div>
+              <div class="rubric-text"><strong>A</strong> — L’étudiant va au-delà des attendus…</div>
+            </article>
+
+            <article class="rubric-item selected"><!-- déjà choisi -->
+              <div class="rubric-grade">B</div>
+              <div class="rubric-text"><strong>B</strong> — L’étudiant identifie ses difficultés et comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">C</div>
+              <div class="rubric-text"><strong>C</strong> — L’étudiant identifie ses difficultés mais ne sait pas comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">D</div>
+              <div class="rubric-text"><strong>D</strong> — L’étudiant ne produit pas d’analyse sur son travail</div>
+            </article>
+          </div>
+        </section>
+      </article>
+      <!-- === /SAÉ N°22 === -->
+
+      <!-- === SAÉ N°23 === -->
+      <article class="sae-entry" id="sae-23">
+        <header class="sae-head">
+          <div>
+            <h3 class="sae-title">Saé N°23</h3>
+            <p class="sae-subtitle">Découvrir un dispositf de transmission</p>
+          </div>
+        </header>
+
+        <section class="sae-block">
+          <h4>Modalités & Description</h4>
+          <p>Projet individuel : rendre ton portfolio dynamique avec Flask + base de données (MySQL/PostgreSQL). Utiliser les templates Flask. Pages : profil, récap compétences, formulaire de validation d’une compétence (niveaux : non acquis → expert).</p>
+        </section>
+
+        <section class="sae-block">
+          <h4>Grille d’évaluation (extrait)</h4>
+          <ul class="sae-list">
+            <li><strong>Structure & Templates Flask</strong> (20 pts)</li>
+            <li><strong>BD & Intégration Flask</strong> (20 pts)</li>
+            <li><strong>Fonctionnalités</strong> (auth, formulaires, CRUD) (30 pts)</li>
+            <li><strong>Docker & Déploiement</strong> (10 pts)</li>
+            <li><strong>Sécurité</strong> (10 pts)</li>
+            <li><strong>Présentation</strong> (10 pts)</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Fichier joint</h4>
+          <div class="sae-files">
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Projet complet</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+          </div>
+        </section>
+
+        <section class="sae-block">
+          <h4>Compétences / Problèmes / Solutions</h4>
+          <ul class="sae-list">
+            <li>Site dynamique Flask ; BD relationnelle ; UI pour ajouter/afficher/supprimer des compétences ; Auth sécurisée.</li>
+            <li>Déploiement Docker ; sécurité (SQLi, XSS, sessions).</li>
+            <li><strong>Problèmes</strong> : structure Flask, Docker/Compose. <strong>Solution</strong> : schéma d’archi clair.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Contenu des séances (résumé)</h4>
+          <ul class="sae-steps">
+            <li>S1 : exigences, planification, setup Flask/Docker.</li>
+            <li>S2 : BD & modèles, liaison Flask ↔ BD.</li>
+            <li>S3 : espace protégé, formulaire ajout de compétences.</li>
+            <li>S4 : interface liste/suppression, finalisation & déploiement.</li>
+            <li>S5 : préparation à l’évaluation.</li>
+          </ul>
+        </section>
+        <section class="sae-block">
+          <h4>Barème d’évaluation</h4>
+          <div class="rubric readonly">
+            <article class="rubric-item selected">
+              <div class="rubric-grade">A</div>
+              <div class="rubric-text"><strong>A</strong> — L’étudiant va au-delà des attendus…</div>
+            </article>
+
+            <article class="rubric-item"><!-- déjà choisi -->
+              <div class="rubric-grade">B</div>
+              <div class="rubric-text"><strong>B</strong> — L’étudiant identifie ses difficultés et comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">C</div>
+              <div class="rubric-text"><strong>C</strong> — L’étudiant identifie ses difficultés mais ne sait pas comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">D</div>
+              <div class="rubric-text"><strong>D</strong> — L’étudiant ne produit pas d’analyse sur son travail</div>
+            </article>
+          </div>
+        </section>
+      </article>
+      <!-- === /SAÉ N°23 === -->
+
+      <!-- === SAÉ N°24 (+21) === -->
+      <article class="sae-entry" id="sae-24">
+        <header class="sae-head">
+          <div>
+            <h3 class="sae-title">Saé N°24 & Saé N°21</h3>
+            <p class="sae-subtitle">Projet intégratif</p>
+          </div>
+        </header>
+
+        <section class="sae-block">
+          <h4>Description du travail demandé</h4>
+          <p>Mettre en place l’infrastructure complète d’une entreprise hébergée dans une pépinière : réseau, services, téléphonie, sécurité et supervision. Solution évolutive, sécurisée et fonctionnelle (réseaux, Docker, virtualisation de services, scripts Python).</p>
+          <ul class="sae-list">
+            <li><strong>Conception réseau</strong> : plan clair (services, connexions internes/externes, point de sortie unique, redirection HTTP, nomenclature IP).</li>
+            <li><strong>Planification</strong> : tâches, chronologie, organisation en « cellule IT ».</li>
+            <li><strong>Configuration</strong> : switchs/routeurs (clients, serveurs, téléphones IP, caméras IP), DNS internes.</li>
+            <li><strong>Clients & serveurs</strong> : parc Windows, Linux (Ubuntu), macOS ; 4 utilisateurs min., partages et profils par défaut.</li>
+            <li><strong>Services Docker</strong> : TFTP, serveur Web multilingue (FR/EN) pages dynamiques, base de données.</li>
+            <li><strong>Téléphonie IP</strong> : migration, QoS.</li>
+            <li><strong>Supervision via LoRa</strong> : capteurs temp., affichage intranet, étude de portée.</li>
+          </ul>
+        </section>
+
+        <section class="sae-block">
+          <h4>Fichiers joints</h4>
+          <div class="sae-files">
+            <article class="file-card"><img src="images/DeliveryBox-476-Recovered_edited.jpg" alt=""><div class="file-body"><h5>Infrastructure</h5><a class="btn btn-sm btn-primary" href="#" target="_blank">Télécharger</a></div></article>
+          </div>
+        </section>
+        <section class="sae-block">
+          <h4>Barème d’évaluation</h4>
+          <div class="rubric readonly">
+            <article class="rubric-item">
+              <div class="rubric-grade">A</div>
+              <div class="rubric-text"><strong>A</strong> — L’étudiant va au-delà des attendus…</div>
+            </article>
+
+            <article class="rubric-item selected"><!-- déjà choisi -->
+              <div class="rubric-grade">B</div>
+              <div class="rubric-text"><strong>B</strong> — L’étudiant identifie ses difficultés et comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">C</div>
+              <div class="rubric-text"><strong>C</strong> — L’étudiant identifie ses difficultés mais ne sait pas comment s’améliorer…</div>
+            </article>
+
+            <article class="rubric-item">
+              <div class="rubric-grade">D</div>
+              <div class="rubric-text"><strong>D</strong> — L’étudiant ne produit pas d’analyse sur son travail</div>
+            </article>
+          </div>
+        </section>
+      </article>
+      <!-- === /SAÉ N°24 === -->
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-phone text-primary me-2"></i> 07 82 37 08 20</li>
+          <li><i class="fa-solid fa-envelope text-success me-2"></i> ConnorPinna@gmail.com</li>
+          <li><i class="fa-solid fa-location-dot text-danger me-2"></i> 4 route nationale, école Joliot-Curie</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <ul>
+          <li><a href="credits.html">Crédits & Mentions légales</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Pinna Connor - Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <!-- JS filtres S1/S2 -->
+  <script>
+    const btns = document.querySelectorAll('.pf-filter');
+    const sections = { s1: document.getElementById('s1'), s2: document.getElementById('s2') };
+    btns.forEach(b=>{
+      b.addEventListener('click', ()=>{
+        btns.forEach(x=>x.classList.remove('active'));
+        b.classList.add('active');
+        const target = b.dataset.target;
+        sections.s1.classList.toggle('hidden', target!=='s1');
+        sections.s2.classList.toggle('hidden', target!=='s2');
+      });
+    });
+  </script>
+</body>
+</html>
